@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "notes": "Release v0.1.0",
+  "pub_date": "2026-04-16T00:00:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.1.0/Agile.Tauri_0.1.0_x64-setup.nsis.zip",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDBNOU5yV3dicnlkRGJPRUtGTkljQWxJcXRRcmJBd1Nkd21XZ1BpYnRtQ1FRL3M5K29jR2xkV05qL1ozZGZ6SDFaZW9kTloxenA2QVd2SGk0VEpWQXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzM0MDUyCWZpbGU6QWdpbGUgVGF1cmlfMC4xLjBfeDY0LXNldHVwLm5zaXMuemlwCmhBVHR2UWNaVmNyY294TzVjd25kQUJBekorbzJpWjNRSzAzcEdjY0U1WmR6c29qZ212K1ZpcC9mei9jM01LanNlb2NveEJESlIreHQyTGdVbHZkREFnPT0K"
+    },
+    "darwin-aarch64": {
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.1.0/Agile.Tauri_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDZPMlF2TTRZYUdSZWNTQTdpcHJuYjFBUTFiNnpEQmQycDEvMld0RGZWL0U2WmFxOGZJQ3VsZ2xJR2JhcUswb3Y3TXgxRmpHWlczajFTcFA2UUczaEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzMzNDkxCWZpbGU6QWdpbGUgVGF1cmkuYXBwLnRhci5negpCUEh6U1BkaUg5THVRczBIWHYybGM2aUlWa2V4KzBvbE1WRVdkejdjTkpHMnBzWU91cmtrLzlKMXNuT1Y1UUVOaUMxQ2F1dngzblZaRDU3M1RWOHBBZz09Cg=="
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.1.0/Agile.Tauri_x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRC9wUTE3SS9tWThCL0ZQMUNKUVI1bVc1eHBqaUllaVZIRmUwNERKYzlwQTdxbHZiU2xZU3UwZkFoZmZsQWJFMHlwQ0ZjdzB4eWwzRHhTdFF4dWlMN1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzMzNDcxCWZpbGU6QWdpbGUgVGF1cmkuYXBwLnRhci5negpDRFA3RVFxcUZJcDVrRmhLUHVtSnVtTXYvbHJwYlZlTUJlZzh0Q01UM3MzOUdhOU5rRnoxRkFJMWRJTHRpRUxnejZxR2wzU3dOZnNrUzlGSVZyV2RCdz09Cg=="
+    }
+  }
+}
