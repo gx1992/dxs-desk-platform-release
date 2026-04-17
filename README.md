@@ -4,17 +4,25 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ---
 
-## 最新版本: v0.2.3
+## 最新版本: v0.2.4
 
 | 平台 | 下载链接 |
 |------|---------|
-| Windows x64 | [dxs-desk_0.2.3_x64-setup.exe](releases/v0.2.3/dxs-desk_0.2.3_x64-setup.exe) |
-| macOS Apple Silicon | [dxs-desk_0.2.3_aarch64.dmg](releases/v0.2.3/dxs-desk_0.2.3_aarch64.dmg) |
-| macOS Intel | [dxs-desk_0.2.3_x64.dmg](releases/v0.2.3/dxs-desk_0.2.3_x64.dmg) |
+| Windows x64 | [DXS-AI._0.2.4_x64-setup.exe](releases/v0.2.4/DXS-AI._0.2.4_x64-setup.exe) |
+| macOS Apple Silicon | [DXS-AI._0.2.4_aarch64.dmg](releases/v0.2.4/DXS-AI._0.2.4_aarch64.dmg) |
+| macOS Intel | [DXS-AI._0.2.4_x64.dmg](releases/v0.2.4/DXS-AI._0.2.4_x64.dmg) |
 
 ---
 
 ## 版本历史
+
+### v0.2.4 (2026-04-17)
+
+- 新增 WebView 隐藏窗口抓取 SPA 网站内容，最大并发 3 个
+- AI 分析支持招投标专项分析，提取公告列表及日期
+- 优化 AI 快速分析速度（精简 prompt、限制 token）
+- 自动更新检查间隔调整为 2 分钟
+- 优化局域网通信功能
 
 ### v0.2.3 (2026-04-17)
 
@@ -45,6 +53,17 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ```
 releases/
+├── v0.2.4/
+│   ├── DXS-AI._0.2.4_x64-setup.exe               # Windows 安装包
+│   ├── DXS-AI._0.2.4_x64-setup.exe.sig           # Windows 签名
+│   ├── DXS-AI._0.2.4_x64-setup.nsis.zip          # Windows 自动更新包
+│   ├── DXS-AI._0.2.4_x64-setup.nsis.zip.sig      # Windows 自动更新签名
+│   ├── DXS-AI._0.2.4_aarch64.dmg                 # macOS Apple Silicon 安装包
+│   ├── DXS-AI._aarch64.app.tar.gz                # macOS ARM 自动更新包
+│   ├── DXS-AI._aarch64.app.tar.gz.sig            # macOS ARM 自动更新签名
+│   ├── DXS-AI._0.2.4_x64.dmg                    # macOS Intel 安装包
+│   ├── DXS-AI._x64.app.tar.gz                   # macOS Intel 自动更新包
+│   └── DXS-AI._x64.app.tar.gz.sig               # macOS Intel 自动更新签名
 ├── v0.2.3/
 │   ├── dxs-desk_0.2.3_x64-setup.exe           # Windows 安装包
 │   ├── dxs-desk_0.2.3_x64-setup.exe.sig       # Windows 签名
