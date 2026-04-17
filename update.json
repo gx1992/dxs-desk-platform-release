@@ -1,19 +1,19 @@
 {
-  "version": "0.2.0",
-  "notes": "v0.2.0 正式版本",
+  "version": "0.2.1",
+  "notes": "新增应用内更新提示功能；重设计 UK 品牌图标；窗口标题改为 DXS-AI文档助手",
   "pub_date": "2026-04-17T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.0/dxs-desk_0.2.0_x64-setup.nsis.zip",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDdCU0hnbVBVTzZQYmlvYkNaNXl1dkcwaG45YXNDR2pmVzNFMWhIbm9JUFJ6Mm1oSSt4R216cU1MWGNpWVNoUnlHQldsWWR6TUJrK0N1OGNJaDhSdVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYxNTYyCWZpbGU6ZHhzLWRlc2tfMC4yLjBfeDY0LXNldHVwLm5zaXMuemlwClpRN1R3Mi9mbWZFekxKa21YUFVGZ0hxaTc3OXZTNmZMY0d4Q2RnOVdycGUwdnpISnFUcWlSZUtpVTNWNkxoNzcwaW02N2crNmx3SmxYR1lZNENmNUJnPT0K"
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.1/dxs-desk_0.2.1_x64-setup.nsis.zip",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRCtMWG85aEhwMlpXVnkraVJJV1ZNOFJFZWNrWUFjVTAxWWIveE8veHNvODNGWDdlN050VFEvT2dqa0l3QnRzWUtzQ1pKMS9uWlBWZXhCNkFMSFA0a0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzkwMDQ5CWZpbGU6ZHhzLWRlc2tfMC4yLjFfeDY0LXNldHVwLm5zaXMuemlwCjcwUEZKYzk0V01YRXhSVXJsS3hYaksvSEpuNzVScXprVVM3dEk2dGhON1RWTjVJUkZCbEpoQk5hZnY4NDl6UlR3c1g2YkkwVG82bXNtM0pwVzI5WENRPT0K"
     },
     "darwin-aarch64": {
-      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.0/dxs-desk_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRCs0L2hzMWxERVk2Y2R5MXN0SnVHV3JIQXhMbTNXMm5BVkg1V2dlalpuR1kwb0dsT1VaQ2ZoNEw2akpsNnlCNThZT2MwM0F6MGN2cWxIUlMyOVRxVVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYxMjA3CWZpbGU6ZHhzLWRlc2suYXBwLnRhci5negpmb0hQZ0FpL0l6S0hSWlFJcVYzNFpLcGR6aG1OZVBhTHhrcWhjQzcxanBFNFVvMmsyMGhZM3V6YWlZTzVRc0xQNWV3RkliV1ZSbmFqbWJVRVA5U0RCdz09Cg=="
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.1/dxs-desk_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDNwQWNlRm1NMHFaTjFESzVuOVpYZk1FYW5uOXRDNGRQK2xmVnNZZFVsOUxYazBkVFdpWkEzNDFydTBPQVc4c2NsQ3h2WTlIM3k1UnlmWTFZUWpVOWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2Mzg5NDI5CWZpbGU6ZHhzLWRlc2suYXBwLnRhci5negpNblZZYklaSlpyd21WM0RVR3ZGK1lBc3ZHR0NtQlYzcVZjMXBXS25aSDUxaXFTRjhBRTdna05ScWlSNXVHUHR6a0FOK0xhejZUdXhRNGZQdDhnem9CZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.0/dxs-desk_x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDJCRE1KOHZIVEtoZHptWHhoSFF1S0RPcnQ3MC9JQWNMK2hhZUZmK2dlT1pEYTNNVHBKbWx1Y3E0QmlIYTlQbk9IRUxIQkJ6V002bC9ubjcxbmZ5bmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYxMjg1CWZpbGU6ZHhzLWRlc2suYXBwLnRhci5negpmZkEwWDJudEhTN3U4aTBOTTM4TGZyQ2RFRXJ3YnYrbGhFQk1qOWZBMmxXa3M1VGFUL1BvNlZzVmE5OFpYREFJaklGRkQ3UXlORXRnNTVFRm5ESUVCZz09Cg=="
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.1/dxs-desk_x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRHpPSS9uRUhmOUtpVTRJYmR3WmV1Z3M1c1gzUjR2L1JiQ2g4SlFzT2dDWVRsSmlKYXpGVmVmcGkvcDFJSFhCa1BOMlRkNWU2dFptcWpHTGtRMi9BVkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2Mzg5NDAwCWZpbGU6ZHhzLWRlc2suYXBwLnRhci5negowbEVBMzlYOG5LS1pia3RsaElCQUp3UlVkeUFVcklYek9WTnFMQUZubHNhNjQ0MGUzTm50T1RwbHhiZHZJZk1uTFh2MTV5QXcxbXlJWXM2SFJwRE1BQT09Cg=="
     }
   }
 }
