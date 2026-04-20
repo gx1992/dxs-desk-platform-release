@@ -4,17 +4,27 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ---
 
-## 最新版本: v0.2.5
+## 最新版本: v0.2.6
 
 | 平台 | 下载链接 |
 |------|---------|
-| Windows x64 | [DXS-AI._0.2.5_x64-setup.exe](releases/v0.2.5/DXS-AI._0.2.5_x64-setup.exe) |
-| macOS Apple Silicon | [DXS-AI._0.2.5_aarch64.dmg](releases/v0.2.5/DXS-AI._0.2.5_aarch64.dmg) |
-| macOS Intel | [DXS-AI._0.2.5_x64.dmg](releases/v0.2.5/DXS-AI._0.2.5_x64.dmg) |
+| Windows x64 | [DXS-AI._0.2.6_x64-setup.exe](releases/v0.2.6/DXS-AI._0.2.6_x64-setup.exe) |
+| macOS Apple Silicon | [DXS-AI._0.2.6_aarch64.dmg](releases/v0.2.6/DXS-AI._0.2.6_aarch64.dmg) |
+| macOS Intel | [DXS-AI._0.2.6_x64.dmg](releases/v0.2.6/DXS-AI._0.2.6_x64.dmg) |
 
 ---
 
 ## 版本历史
+
+### v0.2.6 (2026-04-21)
+
+- RAG 向量检索与 AI 对话打通，知识库语义搜索结果融入回答上下文
+- 修复 MCP 工具名含中文或点号导致 AI 接口 400 错误
+- 知识库导入文件后自动后台建索引，底部显示索引状态
+- 知识库新增"向这个知识库提问"AI 快捷入口
+- 知识库空白状态改为三步引导卡片
+- 嵌入模型配置新增测试连接按钮
+- 修复知识库文件"打开所在目录"路径丢失问题
 
 ### v0.2.5 (2026-04-20)
 
@@ -61,6 +71,17 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ```
 releases/
+├── v0.2.6/
+│   ├── DXS-AI._0.2.6_x64-setup.exe               # Windows 安装包
+│   ├── DXS-AI._0.2.6_x64-setup.exe.sig           # Windows 签名
+│   ├── DXS-AI._0.2.6_x64-setup.nsis.zip          # Windows 自动更新包
+│   ├── DXS-AI._0.2.6_x64-setup.nsis.zip.sig      # Windows 自动更新签名
+│   ├── DXS-AI._0.2.6_aarch64.dmg                 # macOS Apple Silicon 安装包
+│   ├── DXS-AI._aarch64.app.tar.gz                # macOS ARM 自动更新包
+│   ├── DXS-AI._aarch64.app.tar.gz.sig            # macOS ARM 自动更新签名
+│   ├── DXS-AI._0.2.6_x64.dmg                    # macOS Intel 安装包
+│   ├── DXS-AI._x64.app.tar.gz                   # macOS Intel 自动更新包
+│   └── DXS-AI._x64.app.tar.gz.sig               # macOS Intel 自动更新签名
 ├── v0.2.5/
 │   ├── DXS-AI._0.2.5_x64-setup.exe               # Windows 安装包
 │   ├── DXS-AI._0.2.5_x64-setup.exe.sig           # Windows 签名

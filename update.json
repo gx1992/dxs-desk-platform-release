@@ -1,19 +1,19 @@
 {
-  "version": "0.2.5",
-  "notes": "v0.2.5 更新：新增局域网群组通信（群创建、成员管理、群消息收发）；支持聊天附件一键保存到项目并触发 AI 索引；修复数据库版本迁移崩溃问题；空间文件树改用虚拟滚动，文件多时不再卡顿；文件树默认折叠，图标与文件名同行显示。",
-  "pub_date": "2026-04-20T00:00:00Z",
+  "version": "0.2.6",
+  "notes": "v0.2.6 更新：RAG向量检索与AI对话打通，知识库语义搜索融入回答；修复MCP工具名含中文/点号导致400错误；知识库导入后自动后台建索引，新增AI提问快捷入口和空白引导；嵌入模型支持测试连接；修复打开文件所在目录路径丢失问题。",
+  "pub_date": "2026-04-21T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.5/DXS-AI._0.2.5_x64-setup.nsis.zip",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDdwbGZOS3cyQWdNUVpQcFRQYXdDWUZmbk93R2d3MFAwMFdCdG5RbkNNTk1pbUYyQkhpNUlsOU8vempEK1Mya0E3R09aWmVPVFBwWXdydndkdjJBNEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2NjQ4MDA5CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuMi41X3g2NC1zZXR1cC5uc2lzLnppcApFd2ZkNm1RN0VjMU5pb01OWGM3eWJqU0V0b2lzeFRRMTR3MFFFQjhpQm5ldVlCL3lhRmIrcU9tYkFGU3hTMW55MHdKcFl2citBYmNFVzliMzlkYXlEQT09Cg=="
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.6/DXS-AI._0.2.6_x64-setup.nsis.zip",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRC9QWnFJR0tHR1pQMUhGcTdlcW9hWDNRayt0WThYT1J2ZmdkYUs2Ykx6WnNxc0FSNUJIY2xsV0M3T3dWTDJSRTZsYndiVWtOeUh4U0EybHlzelpzaUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2NzAyMDY1CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuMi42X3g2NC1zZXR1cC5uc2lzLnppcAp1Q1RZSFN6U0FzS0IrRk5XTFdQYTBCUU9nOHNEZk11SG4wZnBmTWhWdUFBOVBKZHRjTjFKWlJvemhwczc2Y3haRkpqTmdQOGNLRm9lTjlSdEtwUURCdz09Cg=="
     },
     "darwin-aarch64": {
-      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.5/DXS-AI._aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDFzdVFVd2pGQTRtSllXT21qa1l2dkZGT0pCR2V2QnZpRWFNRVVYRXYyVzRKWU4wNHlYUDBURWxmWVUxS1Z3NWJnOUdrRGZwYkxTMDduVjd0YnpBWVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2NjQ3NDMyCWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLLmFwcC50YXIuZ3oKRGVMLzNyazVZaEhsM1ZDSlZmWFFZTDYxY05UbXYrdHhvQ3RIb1FOdmN1UWljNlZsL0x6cVdUUnFheEF0ZkJ1aTRzcHE0TmVIRVFwQjNTWjBkQUdmQXc9PQo="
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.6/DXS-AI._aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRCt5U1FCSTlRUHlXcHA3VythVmQwZmlyR2c4S08rVFlYRmtpYWpmNWdaT1hJcXFBMHg2WG5rYjFxM2lMY05nMTRZbms3MlgvOThCZXByZXlzR0ZwcUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2NzAxNDA2CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLLmFwcC50YXIuZ3oKTzc4VXlRZzF4R2xTSEZPQzV1WkhXaUlvUUtOUGJGM1l2Y285b3pZdDdHSDNhN2QyUUhkTVR0cUVWOXJyazhjQXRnRlQwQlloeFN6QTJ6UWtSL2ZhQVE9PQo="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.5/DXS-AI._x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDE5YTdhS29vM1lJR0tMK0NGU3lNaDA4VDZsNWhubVArcWt4Y2V3dzVoZ1RrSDc1dUlpM3FySWx3NHY0bldmNHdDWEYxYW45NW1ZK3dkL3dvK3p4eFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2NjQ3MzQ5CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLLmFwcC50YXIuZ3oKeHBCcjFrc1JCSE5DSVF3ek0rYXZ0OERLVG56SHByRUhnRTUxV2NlZ2p2N0hUK2t3SlpWcDVYOU1OditGOFM0ak04T0pHNForWHVBRWdRRG9vSG1CQ0E9PQo="
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.6/DXS-AI._x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRHg0OFM0UnJrYlcwRjVwUStid2MrT2ZJU3A3cmZ5OWhNMHMzeXVnY2dRb0FQWXRpZ1VDbmxMRWI5U1B0Uzg1M2JnMjV2U2svL1pvZjIvVExVOS9qNmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2NzAxNDc1CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLLmFwcC50YXIuZ3oKQmswcGJtbS8xOElwZC9IdGg1c2MwTEVuOWprZEpBTFo4bVZyY01VaFpjT00vT1hEbGo0VXcxeVoyM2RibHhlWVdhWkxPclNPbkdGa3FERzNOTm1SQkE9PQo="
     }
   }
 }
