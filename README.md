@@ -4,17 +4,25 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ---
 
-## 最新版本: v0.2.4
+## 最新版本: v0.2.5
 
 | 平台 | 下载链接 |
 |------|---------|
-| Windows x64 | [DXS-AI._0.2.4_x64-setup.exe](releases/v0.2.4/DXS-AI._0.2.4_x64-setup.exe) |
-| macOS Apple Silicon | [DXS-AI._0.2.4_aarch64.dmg](releases/v0.2.4/DXS-AI._0.2.4_aarch64.dmg) |
-| macOS Intel | [DXS-AI._0.2.4_x64.dmg](releases/v0.2.4/DXS-AI._0.2.4_x64.dmg) |
+| Windows x64 | [DXS-AI._0.2.5_x64-setup.exe](releases/v0.2.5/DXS-AI._0.2.5_x64-setup.exe) |
+| macOS Apple Silicon | [DXS-AI._0.2.5_aarch64.dmg](releases/v0.2.5/DXS-AI._0.2.5_aarch64.dmg) |
+| macOS Intel | [DXS-AI._0.2.5_x64.dmg](releases/v0.2.5/DXS-AI._0.2.5_x64.dmg) |
 
 ---
 
 ## 版本历史
+
+### v0.2.5 (2026-04-20)
+
+- 新增局域网群组通信（群创建、成员管理、群消息收发）
+- 支持聊天附件（文件/图片）一键保存到项目并触发 AI 索引
+- 修复数据库版本迁移崩溃问题（v8→v19）
+- 空间文件树改用虚拟滚动，文件数量多时不再卡顿
+- 文件树默认折叠，仅展开根层；图标与文件名同行显示
 
 ### v0.2.4 (2026-04-17)
 
@@ -53,6 +61,17 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ```
 releases/
+├── v0.2.5/
+│   ├── DXS-AI._0.2.5_x64-setup.exe               # Windows 安装包
+│   ├── DXS-AI._0.2.5_x64-setup.exe.sig           # Windows 签名
+│   ├── DXS-AI._0.2.5_x64-setup.nsis.zip          # Windows 自动更新包
+│   ├── DXS-AI._0.2.5_x64-setup.nsis.zip.sig      # Windows 自动更新签名
+│   ├── DXS-AI._0.2.5_aarch64.dmg                 # macOS Apple Silicon 安装包
+│   ├── DXS-AI._aarch64.app.tar.gz                # macOS ARM 自动更新包
+│   ├── DXS-AI._aarch64.app.tar.gz.sig            # macOS ARM 自动更新签名
+│   ├── DXS-AI._0.2.5_x64.dmg                    # macOS Intel 安装包
+│   ├── DXS-AI._x64.app.tar.gz                   # macOS Intel 自动更新包
+│   └── DXS-AI._x64.app.tar.gz.sig               # macOS Intel 自动更新签名
 ├── v0.2.4/
 │   ├── DXS-AI._0.2.4_x64-setup.exe               # Windows 安装包
 │   ├── DXS-AI._0.2.4_x64-setup.exe.sig           # Windows 签名
