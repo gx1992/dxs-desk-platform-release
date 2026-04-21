@@ -4,17 +4,32 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ---
 
-## 最新版本: v0.2.8
+## 最新版本: v0.2.9
 
 | 平台 | 下载链接 |
 |------|---------|
-| Windows x64 | [DXS-AI._0.2.8_x64-setup.exe](releases/v0.2.8/DXS-AI._0.2.8_x64-setup.exe) |
-| macOS Apple Silicon | [DXS-AI._0.2.8_aarch64.dmg](releases/v0.2.8/DXS-AI._0.2.8_aarch64.dmg) |
-| macOS Intel | [DXS-AI._0.2.8_x64.dmg](releases/v0.2.8/DXS-AI._0.2.8_x64.dmg) |
+| Windows x64 | [DXS-AI._0.2.9_x64-setup.exe](releases/v0.2.9/DXS-AI._0.2.9_x64-setup.exe) |
+| macOS Apple Silicon | [DXS-AI._0.2.9_aarch64.dmg](releases/v0.2.9/DXS-AI._0.2.9_aarch64.dmg) |
+| macOS Intel | [DXS-AI._0.2.9_x64.dmg](releases/v0.2.9/DXS-AI._0.2.9_x64.dmg) |
 
 ---
 
 ## 版本历史
+
+### v0.2.9 (2026-04-22)
+
+- AI 混合检索重构：SQLite FTS5 全文 + 向量双路召回，RRF 融合
+- 三域统一问答：知识库 / 项目文档 / 聊天记录（私聊+群聊）一体化检索
+- 多轮对话上下文支持：代词消解（"她" → "曹娟娟"）
+- Excel 按行分块，首行识别为表头，行内"列名:值"关系保留
+- 索引统计展示三块明细 + Tooltip 详情 + 一键全量重建
+- 启动自动补索"有文件但未切块"的本地知识库
+- 嵌入 API 限流退避（2s/4s/8s）+ 批次间 400ms 降速
+- 回答中的 [^N] 引用符号前端自动隐藏
+- 来源徽章按类型着色（知识库紫/文档蓝/私聊青/群聊绿），可点击跳转
+- peer_id / group_id 改显示 display_name / 群名，不再是 UUID
+- 共享空间对方旧版本兼容 + 友好升级提示
+- 修复阿里邮箱中文文件夹乱码（IMAP UTF-7 解码）
 
 ### v0.2.8 (2026-04-21)
 
@@ -86,6 +101,17 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ```
 releases/
+├── v0.2.9/
+│   ├── DXS-AI._0.2.9_x64-setup.exe               # Windows 安装包
+│   ├── DXS-AI._0.2.9_x64-setup.exe.sig           # Windows 签名
+│   ├── DXS-AI._0.2.9_x64-setup.nsis.zip          # Windows 自动更新包
+│   ├── DXS-AI._0.2.9_x64-setup.nsis.zip.sig      # Windows 自动更新签名
+│   ├── DXS-AI._0.2.9_aarch64.dmg                 # macOS Apple Silicon 安装包
+│   ├── DXS-AI._aarch64.app.tar.gz                # macOS ARM 自动更新包
+│   ├── DXS-AI._aarch64.app.tar.gz.sig            # macOS ARM 自动更新签名
+│   ├── DXS-AI._0.2.9_x64.dmg                    # macOS Intel 安装包
+│   ├── DXS-AI._x64.app.tar.gz                   # macOS Intel 自动更新包
+│   └── DXS-AI._x64.app.tar.gz.sig               # macOS Intel 自动更新签名
 ├── v0.2.8/
 │   ├── DXS-AI._0.2.8_x64-setup.exe               # Windows 安装包
 │   ├── DXS-AI._0.2.8_x64-setup.exe.sig           # Windows 签名
