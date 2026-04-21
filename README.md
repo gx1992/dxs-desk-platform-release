@@ -4,17 +4,24 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ---
 
-## 最新版本: v0.2.7
+## 最新版本: v0.2.8
 
 | 平台 | 下载链接 |
 |------|---------|
-| Windows x64 | [DXS-AI._0.2.7_x64-setup.exe](releases/v0.2.7/DXS-AI._0.2.7_x64-setup.exe) |
-| macOS Apple Silicon | [DXS-AI._0.2.7_aarch64.dmg](releases/v0.2.7/DXS-AI._0.2.7_aarch64.dmg) |
-| macOS Intel | [DXS-AI._0.2.7_x64.dmg](releases/v0.2.7/DXS-AI._0.2.7_x64.dmg) |
+| Windows x64 | [DXS-AI._0.2.8_x64-setup.exe](releases/v0.2.8/DXS-AI._0.2.8_x64-setup.exe) |
+| macOS Apple Silicon | [DXS-AI._0.2.8_aarch64.dmg](releases/v0.2.8/DXS-AI._0.2.8_aarch64.dmg) |
+| macOS Intel | [DXS-AI._0.2.8_x64.dmg](releases/v0.2.8/DXS-AI._0.2.8_x64.dmg) |
 
 ---
 
 ## 版本历史
+
+### v0.2.8 (2026-04-21)
+
+- 修复消息已读状态回溯：打开对话时将历史未读消息一并标为已读
+- 修复向在线节点发送窗口抖动时误报"节点当前不在线"错误
+- 窗口抖动接收时自动还原窗口、自动导航到对方对话界面
+- 邮件收件箱切换 Tab 不再重新加载，后台每 3 分钟静默刷新一次
 
 ### v0.2.7 (2026-04-21)
 
@@ -79,6 +86,17 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ```
 releases/
+├── v0.2.8/
+│   ├── DXS-AI._0.2.8_x64-setup.exe               # Windows 安装包
+│   ├── DXS-AI._0.2.8_x64-setup.exe.sig           # Windows 签名
+│   ├── DXS-AI._0.2.8_x64-setup.nsis.zip          # Windows 自动更新包
+│   ├── DXS-AI._0.2.8_x64-setup.nsis.zip.sig      # Windows 自动更新签名
+│   ├── DXS-AI._0.2.8_aarch64.dmg                 # macOS Apple Silicon 安装包
+│   ├── DXS-AI._aarch64.app.tar.gz                # macOS ARM 自动更新包
+│   ├── DXS-AI._aarch64.app.tar.gz.sig            # macOS ARM 自动更新签名
+│   ├── DXS-AI._0.2.8_x64.dmg                    # macOS Intel 安装包
+│   ├── DXS-AI._x64.app.tar.gz                   # macOS Intel 自动更新包
+│   └── DXS-AI._x64.app.tar.gz.sig               # macOS Intel 自动更新签名
 ├── v0.2.7/
 │   ├── DXS-AI._0.2.7_x64-setup.exe               # Windows 安装包
 │   ├── DXS-AI._0.2.7_x64-setup.exe.sig           # Windows 签名
