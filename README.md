@@ -4,17 +4,25 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ---
 
-## 最新版本: v0.2.6
+## 最新版本: v0.2.7
 
 | 平台 | 下载链接 |
 |------|---------|
-| Windows x64 | [DXS-AI._0.2.6_x64-setup.exe](releases/v0.2.6/DXS-AI._0.2.6_x64-setup.exe) |
-| macOS Apple Silicon | [DXS-AI._0.2.6_aarch64.dmg](releases/v0.2.6/DXS-AI._0.2.6_aarch64.dmg) |
-| macOS Intel | [DXS-AI._0.2.6_x64.dmg](releases/v0.2.6/DXS-AI._0.2.6_x64.dmg) |
+| Windows x64 | [DXS-AI._0.2.7_x64-setup.exe](releases/v0.2.7/DXS-AI._0.2.7_x64-setup.exe) |
+| macOS Apple Silicon | [DXS-AI._0.2.7_aarch64.dmg](releases/v0.2.7/DXS-AI._0.2.7_aarch64.dmg) |
+| macOS Intel | [DXS-AI._0.2.7_x64.dmg](releases/v0.2.7/DXS-AI._0.2.7_x64.dmg) |
 
 ---
 
 ## 版本历史
+
+### v0.2.7 (2026-04-21)
+
+- 监控公告支持点击跳转详情链接（从 [LINKS] 区块精确匹配）
+- 修复点击公告时应用崩溃问题（UTF-8 多字节字符安全切片）
+- AI 摘要报告公告项美化为绿色卡片样式（与差量对比报告一致）
+- WebView 抓取时附加 [LINKS] 区块，记录页面所有 <a href> 链接
+- AI prompt 优化为 `标题 | 日期 | URL` 格式，自动从链接表填充 URL
 
 ### v0.2.6 (2026-04-21)
 
@@ -71,6 +79,17 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ```
 releases/
+├── v0.2.7/
+│   ├── DXS-AI._0.2.7_x64-setup.exe               # Windows 安装包
+│   ├── DXS-AI._0.2.7_x64-setup.exe.sig           # Windows 签名
+│   ├── DXS-AI._0.2.7_x64-setup.nsis.zip          # Windows 自动更新包
+│   ├── DXS-AI._0.2.7_x64-setup.nsis.zip.sig      # Windows 自动更新签名
+│   ├── DXS-AI._0.2.7_aarch64.dmg                 # macOS Apple Silicon 安装包
+│   ├── DXS-AI._aarch64.app.tar.gz                # macOS ARM 自动更新包
+│   ├── DXS-AI._aarch64.app.tar.gz.sig            # macOS ARM 自动更新签名
+│   ├── DXS-AI._0.2.7_x64.dmg                    # macOS Intel 安装包
+│   ├── DXS-AI._x64.app.tar.gz                   # macOS Intel 自动更新包
+│   └── DXS-AI._x64.app.tar.gz.sig               # macOS Intel 自动更新签名
 ├── v0.2.6/
 │   ├── DXS-AI._0.2.6_x64-setup.exe               # Windows 安装包
 │   ├── DXS-AI._0.2.6_x64-setup.exe.sig           # Windows 签名
