@@ -1,19 +1,11 @@
 {
-  "version": "0.2.9",
-  "notes": "v0.2.9 AI 混合检索（FTS5 + 向量）+ 三域统一问答（知识库/文档/聊天）+ 多轮对话上下文 + 邮箱中文目录解码",
+  "version": "0.2.10",
+  "notes": "v0.2.10 修复邮件列表获取失败（改用 BODY.PEEK[HEADER] 解析）+ 默认加载 600 封邮件 + 修复系统通知显示 PowerShell（注册 AUMID）+ 修复窗口抖动最小化无响应（Rust 侧强制还原窗口）",
   "pub_date": "2026-04-22T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDRKUmxZNkxHeksyaFZaZittcUx5QU82WXpRUmx3ckQ3RDlnQml2Rm1FemJvS0diL092QTRaKzNSYkFTSUNXaWNscHlicUp1a0VFamFmVlMzSUpJRFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2NzkwNDk4CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuMi45X3g2NC1zZXR1cC5uc2lzLnppcApweXRLaHBaUE1OVnJhQnZ0bzhtRTFMTVYvY3JReDdvbzZ0aW1jWkR1TVAwdmVUalh1cmJITC9vclcreHVPcTlWcXB1aUVhVWJJVS9rcmttcU1aVkVBQT09Cg==",
-      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.9/DXS-AI._0.2.9_x64-setup.nsis.zip"
-    },
-    "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRHdWNzlWUkV6cTFFdHY4djVPWXF3VnROemU5STBEd05XN3NUS09BTnVMbXJ4dzc2eXVDKzF0MXZXNHF0cU44S09UMG5aV01TS0VzQmhZMzRLWm5zQmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2Nzg5OTUwCWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLLmFwcC50YXIuZ3oKYmd1Y3l2QTFCeTlVNmZ3aTFhRStOVmZCdFR4UVBFUk9aZVBvNWxTeGdiaGVpWXk0ZFl3ei9pVERKSDNSeGxxYUhDbEsxRHdOYUV1YVJmL2F4YzlIQ1E9PQo=",
-      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.9/DXS-AI._aarch64.app.tar.gz"
-    },
-    "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDZ2eExLdkJteHk1RWw5SkNnM3I2UkRnTE5ScGVDYjZPZVpTVmtFeWJ0aE12bEJaQ3dnRkhzS2N4VG9nVFFXUUM2WkVMVEt4Y2ZpZm1LWEJsWjlKU2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2Nzg5OTc2CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLLmFwcC50YXIuZ3oKZVJKdzVVQ3hOazZ5OEJudVZQS1U1SXpzTnBGZXZFd2RXMjU1em1VM1JRMlJPL2lkUUQvanpVSndMOC9yOHV4ZnhJMXJDMFRNZEVuSWNXZVdsaHhlQXc9PQo=",
-      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.9/DXS-AI._x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDZnZWxDQ2d0QTF5RGh3dHVCbkFCSWtQS29ybEhhYkhQdDUzdW1vUC9kL1R5YTdJSWZnNzAvOGpIcENDSkUvN091UmRIbUsvZWhVY1hjWWtyZ0pJcWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2ODM2ODAxCWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuMi4xMF94NjQtc2V0dXAubnNpcy56aXAKUjZWaVJ1VTFNQ2Fyd25hRTdNd0xPRHp6NEIxK2JTSWFZcnl5MUs3anFzei9JVkZqQ2dQTnJCc1o4TWgvMEU5ZDFLbmpxK2k3VmdtbGNma1drL0xURGc9PQo=",
+      "url": "https://github.com/gx1992/dxs-desk-platform-release/raw/master/releases/v0.2.10/DXS-AI._0.2.10_x64-setup.nsis.zip"
     }
   }
 }

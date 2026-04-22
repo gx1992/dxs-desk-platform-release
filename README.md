@@ -4,17 +4,22 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ---
 
-## 最新版本: v0.2.9
+## 最新版本: v0.2.10
 
 | 平台 | 下载链接 |
 |------|---------|
-| Windows x64 | [DXS-AI._0.2.9_x64-setup.exe](releases/v0.2.9/DXS-AI._0.2.9_x64-setup.exe) |
-| macOS Apple Silicon | [DXS-AI._0.2.9_aarch64.dmg](releases/v0.2.9/DXS-AI._0.2.9_aarch64.dmg) |
-| macOS Intel | [DXS-AI._0.2.9_x64.dmg](releases/v0.2.9/DXS-AI._0.2.9_x64.dmg) |
+| Windows x64 | [DXS-AI._0.2.10_x64-setup.exe](releases/v0.2.10/DXS-AI._0.2.10_x64-setup.exe) |
 
 ---
 
 ## 版本历史
+
+### v0.2.10 (2026-04-22)
+
+- 修复邮件列表获取失败（ENVELOPE 解析 bug，改用 BODY.PEEK[HEADER]，覆盖阿里邮箱）
+- 邮件默认加载 600 封（最大 1000），不再只显示 50 封
+- 修复系统托盘通知显示 "PowerShell" 问题（注册 Windows AUMID）
+- 修复窗口最小化/隐藏时收到抖动无响应（改由 Rust 侧强制还原窗口）
 
 ### v0.2.9 (2026-04-22)
 
@@ -101,6 +106,11 @@ Agile Tauri 桌面应用发布仓库（GitHub 备份）
 
 ```
 releases/
+├── v0.2.10/
+│   ├── DXS-AI._0.2.10_x64-setup.exe              # Windows 安装包
+│   ├── DXS-AI._0.2.10_x64-setup.exe.sig          # Windows 签名
+│   ├── DXS-AI._0.2.10_x64-setup.nsis.zip         # Windows 自动更新包
+│   └── DXS-AI._0.2.10_x64-setup.nsis.zip.sig     # Windows 自动更新签名
 ├── v0.2.9/
 │   ├── DXS-AI._0.2.9_x64-setup.exe               # Windows 安装包
 │   ├── DXS-AI._0.2.9_x64-setup.exe.sig           # Windows 签名
