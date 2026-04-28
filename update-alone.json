@@ -1,0 +1,11 @@
+{
+    "version":  "0.3.0",
+    "notes":  "v0.3.0：alone 变体首发（保留 CLI 工坊，移除 AI Agent）。CLI 工坊浅色主题终端渲染修复。",
+    "pub_date":  "2026-04-28T14:27:48Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDd1V1lWUUkzYzh4SjA2cUhhbTJ0TWtpVFdCWTVpL2hvSTk2YktlVE1KL1hhc0ZRN1BHTC85cEpLSDRYaUR5QjZ2UDdiN0NYM1Rxd3NnN2NIYkNsdHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3Mzg2MDM5CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuMy4wX3g2NC1zZXR1cC5leGUKR0JFOStBdVlaQlN5VXEzQWpNbE5HV2k4NktWT3VSTWg1SmsyRHgzVDRZRkFkVkRhK0JZWS9FclhlWVZydFN5dFE1UGdNbXJETG1yKytBZk5wSWtoREE9PQo=",
+                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.3.0/dxs-alone-0.3.0-setup.exe"
+                                         }
+                  }
+}

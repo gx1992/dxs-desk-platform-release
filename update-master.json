@@ -1,0 +1,11 @@
+{
+    "version":  "0.3.0",
+    "notes":  "v0.3.0：CLI 工坊浅色主题终端渲染修复（xterm viewport 透明度）；引入三变体（master/alone/uk）独立 update channel 架构。",
+    "pub_date":  "2026-04-28T14:27:48Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDFubnc5VjVzZWliS1cwekFkWTdOS05lRkxFcTk5ZVVPVFZMYTl4eHVDUVVrdUxtbGFvdFc4K014akJkaFE3L0lhQUh0dHZiYnRjbHkvWHBSVlZGM3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3Mzg1NjA4CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuMy4wX3g2NC1zZXR1cC5leGUKbUczc1h6Nk5xcUd3RGVPTnZ0dHRqYjgzeXRDdHBSUmoxM2NOTXRKcHBhRlp3cWRqSXg1aVZwUnBzQS9aelVkc3FaNU5PL2xYYjFlOFpLM1NrUG4vRHc9PQo=",
+                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.3.0/dxs-master-0.3.0-setup.exe"
+                                         }
+                  }
+}
