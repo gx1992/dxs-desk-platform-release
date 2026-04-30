@@ -1,11 +1,11 @@
 {
-    "version":  "0.3.0",
-    "notes":  "v0.3.0：uk 变体首发（保留 AI Agent，移除 CLI 工坊）。",
-    "pub_date":  "2026-04-28T14:27:48Z",
+    "version":  "0.4.0",
+    "notes":  "v0.4.0 · 维护更新\n• 局域网：端口绑定失败时主动提示前端\n• AI Agent：会话列表交互优化\n• 整体 UI 与稳定性小修复",
+    "pub_date":  "2026-04-30T02:10:05Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRHlBdGx3MSt1MHVOckE0R2t0RXFyZ2xzWm5VcTBaYThvdnVhc2U3bDJNWVZseFpFUkloUUxLdjJWc2huWGNrTEZkcTdCalRIVXY1cUs1ei9YOXR5ZHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3Mzg2NDY4CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuMy4wX3g2NC1zZXR1cC5leGUKc2Zrd1NzWWNDYk02SFZoSzBWdUt1b04xOFdWTEFKblpDVlVoWVNEaW01RlBXd2ttcGlWSUlTZGNLOTY2KzRQdlRXNmpBZHEzMDMraXpjYTZ3Rko0Q2c9PQo=",
-                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.3.0/dxs-uk-0.3.0-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZjk0SDA5OTNZeENZTzFOWDRQUlhlSzMzeC94UGJtS1cxVzVpRTlKTXhVWFpwT0V0dTVIc2pobTdsQzVYdVdYQ2ppZ3dQQ3FVUjB5M2hZdzJTTjRwUEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTE1MDA1CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4wX3g2NC1zZXR1cC5leGUKUUV5S1VFVjJ6Ujl1UmhmajFaR2JpTUVsQWZqempJdG40T25RK2RzL1JzVDB6SnhNVm5JbHcxNWN6eGZGM0dqNHYrMnNCcnNKdWFWajJ2d1ovSUVjRGc9PQo=",
+                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.0/dxs-uk-0.4.0-setup.exe"
                                          }
                   }
 }

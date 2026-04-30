@@ -1,11 +1,11 @@
 {
-    "version":  "0.3.0",
-    "notes":  "v0.3.0：CLI 工坊浅色主题终端渲染修复（xterm viewport 透明度）；引入三变体（master/alone/uk）独立 update channel 架构。",
-    "pub_date":  "2026-04-28T14:27:48Z",
+    "version":  "0.4.0",
+    "notes":  "v0.4.0 · CLI 工坊增强\n• 多账号并行：每个 profile 独立环境，可同时跑多账号互不抢凭证\n• 第三方代理直连：智谱 GLM / DeepSeek 的 Anthropic 兼容端点开箱即用\n• profile 视觉染色：会话与终端 tab 按账号染色\n• profile 配置种子化：新建账号自动从 ~/.claude 拷配置\n• 紧凑 UI：账号下拉、cwd 分组折叠、会话折叠、新建会话弹窗精简\n• 修复 Windows 切 profile 凭证残留、OAuth/API key 冲突、ColorPicker 等",
+    "pub_date":  "2026-04-30T02:10:05Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRclFFUUxuTHJpRDFubnc5VjVzZWliS1cwekFkWTdOS05lRkxFcTk5ZVVPVFZMYTl4eHVDUVVrdUxtbGFvdFc4K014akJkaFE3L0lhQUh0dHZiYnRjbHkvWHBSVlZGM3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3Mzg1NjA4CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuMy4wX3g2NC1zZXR1cC5leGUKbUczc1h6Nk5xcUd3RGVPTnZ0dHRqYjgzeXRDdHBSUmoxM2NOTXRKcHBhRlp3cWRqSXg1aVZwUnBzQS9aelVkc3FaNU5PL2xYYjFlOFpLM1NrUG4vRHc9PQo=",
-                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.3.0/dxs-master-0.3.0-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZjFEd2pLVlAwSmRXV3lkdW1IS0U3ZlEvbmJOMzAxM2dTZ2kzelpwMk5IVXk1SmtEN0JqaFlycnZ3Uko1MVFPQUZHZW1YMElFKyt1YWZzVG9ObW1ueXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTEzNzg2CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4wX3g2NC1zZXR1cC5leGUKeUd6bExWajZFNjJtTVp6ejVqMVNPdXhxSmhEczFBLytTM3RLZ0RWWkNvUEc3ekxDZk9RejAwci9kQkcwSVJMVmFFS2k4cjJ0S2dkVVR6MnFoL1N2Qmc9PQo=",
+                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.0/dxs-master-0.4.0-setup.exe"
                                          }
                   }
 }
