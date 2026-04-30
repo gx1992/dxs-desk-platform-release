@@ -1,11 +1,11 @@
 {
-    "version":  "0.4.0",
-    "notes":  "v0.4.0 · 维护更新\n• 局域网：端口绑定失败时主动提示前端\n• AI Agent：会话列表交互优化\n• 整体 UI 与稳定性小修复",
-    "pub_date":  "2026-04-30T02:10:05Z",
+    "version":  "0.4.1",
+    "notes":  "v0.4.1 · 启动体验修复\n• 修复：安装新版本后启动时主窗口不显示、仅托盘图标可见的问题\n• WebView 加载慢的环境下不再需要等几秒或手动点击托盘图标才能看到主窗口",
+    "pub_date":  "2026-04-30T03:22:47Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZjk0SDA5OTNZeENZTzFOWDRQUlhlSzMzeC94UGJtS1cxVzVpRTlKTXhVWFpwT0V0dTVIc2pobTdsQzVYdVdYQ2ppZ3dQQ3FVUjB5M2hZdzJTTjRwUEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTE1MDA1CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4wX3g2NC1zZXR1cC5leGUKUUV5S1VFVjJ6Ujl1UmhmajFaR2JpTUVsQWZqempJdG40T25RK2RzL1JzVDB6SnhNVm5JbHcxNWN6eGZGM0dqNHYrMnNCcnNKdWFWajJ2d1ovSUVjRGc9PQo=",
-                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.0/dxs-uk-0.4.0-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZi9IdVA4Mko4RExXN3VjWHUvQjdheTJ2SWtFSGQ0SmNMSk01RVNKNWExZy94SmRxOVRCVU5TZ2JNZmorYmF1eWtWNmdtVkkxNWd6N29WTHFLejdURXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTE5MzY3CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4xX3g2NC1zZXR1cC5leGUKUTlYdmJkN3hPamdvL051WFAwOERMa3hTbFQ5cjI0ZkNVQkl6SForcndaZEJ3MTZVenVaS2grRzBZTzl2MkVEZ0FBR2hOWnZhS0RPZmFiNmVna3QrQmc9PQo=",
+                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.1/dxs-uk-0.4.1-setup.exe"
                                          }
                   }
 }
