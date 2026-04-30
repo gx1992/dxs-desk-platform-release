@@ -1,11 +1,11 @@
 {
-    "version":  "0.4.2",
-    "notes":  "v0.4.2 · 维护更新\n• 自动更新链路修复：v0.4.0 起的 updater 公钥配置错误导致从未真正生效，安装 v0.4.2 后未来版本自动更新即恢复正常\n• 内部稳定性小修复",
-    "pub_date":  "2026-04-30T07:48:10Z",
+    "version":  "0.4.3",
+    "notes":  "v0.4.3 更新内容\n\n• AI 助手：消息内容支持 Ctrl+C 复制\n• 内部维护与稳定性更新",
+    "pub_date":  "2026-04-30T10:16:13Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZnpManlJc3BsTXgrWTlIa3pUZC9KMUpVaVBvdFg5Uy8zb3RhMEI0b3ZrZUtaek1QZEdvSUhzOGJyYkJTT21YWUVLSGMxWFFHeW8zUTVVODB5c1E0andnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTM1MjkwCWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4yX3g2NC1zZXR1cC5leGUKUUFDb0JTdFA2dlBlZVlmL0RRN3pkK2hMNlM5djY1THR2OStkcWRHKytBUjkzNHFOazF0NUhkc0p6V3ZOYjBMRnQ0SnlBdHJsQXFFbTVKSDdnTjVLQWc9PQo=",
-                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.2/dxs-uk-0.4.2-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZjVDR0xFdTV0dXozTkY0cktXMkV4Y1NWOHY0SkQ1OGxBZnJLSkNNbTVkVE8wMVFpZERxTDUxN2kzNmo5MnpOSlRNWk0welJNYWVwWkFoVWZ6ZVdkL3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTQ0MTczCWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4zX3g2NC1zZXR1cC5leGUKT3VpamdBUmlNdnIxUGl5YTBKWVYxSFU4d1FETHoxMlNIbVl4dFF3ZXRLWHFZTFJUeDZMSTQ2ZTU5amZjQmVWYkZ6bVM4RGRibUhMVUVSL0VwZTI4Qnc9PQo=",
+                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.3/dxs-uk-0.4.3-setup.exe"
                                          }
                   }
 }

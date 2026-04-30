@@ -1,11 +1,11 @@
 {
-    "version":  "0.4.2",
-    "notes":  "v0.4.2 · CLI 工坊历史会话恢复修复\n• 修复：使用账号档案（多账号并行）的 Claude Code 会话点开后无对话历史，启动空白新会话\n• 修复：使用账号档案的会话导出 Markdown / HTML 报「找不到对话历史文件」\n• 修复：使用账号档案的会话恢复时不再注入历史回放到终端\n\n⚠️ 自动更新链路修复：v0.4.0 起的 updater 公钥配置错误导致从未真正生效，请安装 v0.4.2 后未来版本自动更新即恢复正常。",
-    "pub_date":  "2026-04-30T07:48:10Z",
+    "version":  "0.4.3",
+    "notes":  "v0.4.3 更新内容\n\n• CLI 工坊：新增 Codex 历史会话恢复，关闭后重开可继续之前的对话\n• CLI 终端：滚动条空白带与终端背景一致，视觉更统一",
+    "pub_date":  "2026-04-30T10:16:13Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZnlNRTAwRmMwdDRzQVhNT1hsMkZJcWRxcUVvY1htenU1eW9mcmNzbFl0ZEVRUXhKVjBFbEgrbWM2SGoyUW1TMld2b0ZtSzI0QlFZWXJCbkFVKzR2b0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTM0ODY4CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4yX3g2NC1zZXR1cC5leGUKN280MVJ1VjdDMmxEU2JPZ21sNDBwN3lVZk51QmVLNHBBc1BZc2UrYks4K29oVkluZ24vRzc1RUpoWGozbkdYK1FrKzE1NFMrR1o5TEtaeU1MNGtDQmc9PQo=",
-                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.2/dxs-alone-0.4.2-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZncxODZyYnQ1TU5iZFpFZnFzVkc2ZXdCWVVLSlN1Z1dsYWhlNStPNlRTMms2MVpveVpiQlFCeVMyRS9rcXR2akJwSnp2N0k2REExYTVYbGF3UGM2dHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTQzNzUzCWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4zX3g2NC1zZXR1cC5leGUKL0x4ZTh1TTlMSk16LzFBV3NiRmhQaW1QM2wxNXNtOG9XUFdZZlI4eXI5MDBHaUxSNzROOTdMTGJDQjJYVDNRRjg5QkE5Uzh5c09nU0ZjSXo2NHFzQlE9PQo=",
+                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.3/dxs-alone-0.4.3-setup.exe"
                                          }
                   }
 }
