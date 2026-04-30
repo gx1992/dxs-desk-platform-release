@@ -1,11 +1,11 @@
 {
-    "version":  "0.4.1",
-    "notes":  "v0.4.1 · 启动体验修复\n• 修复：安装新版本后启动时主窗口不显示、仅托盘图标可见的问题\n• WebView 加载慢的环境下不再需要等几秒或手动点击托盘图标才能看到主窗口",
-    "pub_date":  "2026-04-30T03:22:47Z",
+    "version":  "0.4.2",
+    "notes":  "v0.4.2 · CLI 工坊历史会话恢复修复\n• 修复：使用账号档案（多账号并行）的 Claude Code 会话点开后无对话历史，启动空白新会话\n• 修复：使用账号档案的会话导出 Markdown / HTML 报「找不到对话历史文件」\n• 修复：使用账号档案的会话恢复时不再注入历史回放到终端\n\n⚠️ 自动更新链路修复：v0.4.0 起的 updater 公钥配置错误导致从未真正生效，请安装 v0.4.2 后未来版本自动更新即恢复正常。",
+    "pub_date":  "2026-04-30T07:48:10Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZjk3U1ZySVRlcjh6VEd6dnZwekxGK2pyVHdsY0p4Qjd0WWxYTVFMMTQyZUZpanl0SVNxeFRSdXgrbW5VZHpqbUVWYURWREdwanA1SGM2QjY4RmFTU1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTE4NTExCWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4xX3g2NC1zZXR1cC5leGUKU0xPbkoyMGVOK2NHR3FLdGUyczBWaTMrOU45aHZGSkVZRzJGcnFXNDVKVWg2cU9taTNteHQ2RDg5OWpjdW9ub0VtMEUrcjIvWGFqSkhNUUdQb0x4QUE9PQo=",
-                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.1/dxs-master-0.4.1-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSndwbC93bEEyZnkvYVh3U0xKVEduSVd2Q2d0Qi9PeGorYld1RWcvd1NOb0hnZm9ldmRCTlZPMWowdHZEQlhMcTgvR09CNmZlb2FHL2FJVktQa01uMWNQU1ZpbUtIMFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTM0NDM2CWZpbGU6RFhTLUFJ5paH5qGj5Yqp5omLXzAuNC4yX3g2NC1zZXR1cC5leGUKNVhGNW4xQ3BsUTFIKytQaUFUdUQ4N2dpWU1HVnRnLyt5S2VFWUF3d1QrTklOR0l2dlBjVE1hSzhFOGhjVW9HRW5ZRHlUSUxvRk5QOHNZZ25EaW83Q3c9PQo=",
+                                             "url":  "https://gitee.com/gx_cjj/dxs-desk-platform-release/releases/download/v0.4.2/dxs-master-0.4.2-setup.exe"
                                          }
                   }
 }
